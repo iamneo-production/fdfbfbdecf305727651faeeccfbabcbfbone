@@ -1,6 +1,6 @@
 body{
     background: rgb(0, 0, 0);
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -21,7 +21,6 @@ body{
 #crow{
     width:100px;
     height:100px;
-    background: url('path-to-crow-image.png') center/cover;
     animation: crow 0.5s linear 0s infinite;
 
 }
