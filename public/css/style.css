@@ -21,5 +21,18 @@ body{
 #crow{
     width:100px;
     height:100px;
-    background: url('path-to-crow-image.png') cem;
+    background: url('path-to-crow-image.png') center/cover;
+    animation: crow 0.5s linear 0s infinite;
+
 }
+@keyframes crow{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+ span.OP{
+    color:rgb(0, 0, 255);
+ }
