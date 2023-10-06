@@ -1,37 +1,39 @@
-body{
-    background: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+* {
+
     margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
 }
-#typing{
-    animation: typing 5s steps(22)
-    infinite alternate;
+
+body {
+
+    display: flex;
+
+    background-color: rgb(0, 0, 0);
+
+    justify-content: center;
+
+    align-content: center;
+
 }
-@keyframes typing{
-    from{
-        width: 0;
-    }
-    to{
-        width: 100%
-    }
+
+ 
+
+#typing {
+
+    color: white;
+
+    animation: typing 5s steps(22) 1s infinite alternate;
+
 }
-#crow{
-    width:100px;
-    height:100px;
+
+ 
+
+#crow {
+
     animation: crow 0.5s linear 0s infinite;
 
 }
-@keyframes crow{
-    0%{
-        transform: translateX(0);
-    }
-    100%{
-        transform: translateX(100%);
-    }
-}
- span.OP{
-    color:rgb(0, 0, 255);
- }
